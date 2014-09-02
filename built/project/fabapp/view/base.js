@@ -1,0 +1,1 @@
+define(["require","exports","module","jquery-selector-data-prefix","bbdv"],function(t,n,r){t("jquery-selector-data-prefix");var i=t("bbdv"),s=i.extend({namespace:"fab",selector:function(t){return":data-prefix("+t+")"}});s.directive("invoke",function(e,n){var r=this.scope?_.create(this.scope):{};r.el=e[0],t([n],function(e){e(r)})}),r.exports=s});

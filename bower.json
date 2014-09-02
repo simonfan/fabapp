@@ -1,0 +1,26 @@
+{
+  "name": "fabapp",
+  "main": "built/fabapp.js",
+  "version": "0.0.0",
+  "description": "Some module...",
+  "dependencies": {
+    "bbmv": "~0.15.18",
+    "bbcv": "~0.7.14",
+    "bbdv": "0.6.9",
+    "jquery-selector-data-prefix": "~0.1.2",
+    "bb-rendered-view": "0.1.0",
+    "q": "1.0.1"
+  },
+  "devDependencies": {
+    "requirejs": "*",
+    "requirejs-text": "*",
+    "underscore": "*",
+    "jquery": "*",
+    "qunit": "*"
+  },
+  "resolutions": {
+    "lowercase-backbone": "0.3.8",
+    "bbdv": "0.6.9",
+    "q": "1.0.1"
+  }
+}

@@ -1,0 +1,3 @@
+# fabapp[![Build Status](https://secure.travis-ci.org/simonfan/fabapp.png?branch=master)](http://travis-ci.org/simonfan/fabapp)
+
+Some module...

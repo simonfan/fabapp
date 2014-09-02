@@ -1,0 +1,84 @@
+{
+    "project": {
+        "name": "fabapp",
+        "version": "0.0.0"
+    },
+    "files": {
+        "src/fabapp/view/display.js": {
+            "name": "src/fabapp/view/display.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/fabapp.js": {
+            "name": "src/fabapp.js",
+            "modules": {
+                "Fabapp": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "Fabapp": {
+            "name": "Fabapp",
+            "submodules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "src/fabapp.js",
+            "line": 5,
+            "description": "AMD module."
+        }
+    },
+    "classes": {},
+    "classitems": [
+        {
+            "file": "src/fabapp/view/display.js",
+            "line": 27,
+            "description": "Verifies if instance already exists.\nIf so, returns the instnace.\notherwise loads the module and instantiates the view.",
+            "params": [
+                {
+                    "name": "viewName",
+                    "description": "[description]",
+                    "type": "[type]"
+                }
+            ],
+            "return": {
+                "description": "[description]",
+                "type": "[type]"
+            },
+            "class": ""
+        },
+        {
+            "file": "src/fabapp/view/display.js",
+            "line": 80,
+            "description": "[activate description]",
+            "params": [
+                {
+                    "name": "viewDefinition",
+                    "description": "[description]",
+                    "type": "[type]"
+                }
+            ],
+            "return": {
+                "description": "[description]",
+                "type": "[type]"
+            },
+            "class": ""
+        }
+    ],
+    "warnings": [
+        {
+            "message": "Missing item type\nVerifies if instance already exists.\nIf so, returns the instnace.\notherwise loads the module and instantiates the view.",
+            "line": " src/fabapp/view/display.js:27"
+        },
+        {
+            "message": "Missing item type\n[activate description]",
+            "line": " src/fabapp/view/display.js:80"
+        }
+    ]
+}
